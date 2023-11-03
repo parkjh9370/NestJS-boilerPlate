@@ -20,13 +20,16 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@dataui/crud": "^5.2.0-alpha.4",
+    "@dataui/crud-request": "^5.2.0-alpha.4",
+    "@dataui/crud-typeorm": "^5.2.0-alpha.4",
     "@nestjs/common": "8.2.6",
     "@nestjs/core": "8.2.6",
     "@nestjs/jwt": "8.0.1",
     "@nestjs/passport": "8.2.2",
     "@nestjs/platform-express": "8.2.6",
     "@nestjs/swagger": "^7.1.12",
-    "@nestjs/typeorm": "8.1.4",
+    "@nestjs/typeorm": "^10.0.0",
     "aws-sdk": "2.1219.0",
     "bcrypt": "^5.1.1",
     "class-transformer": "^0.5.1",
