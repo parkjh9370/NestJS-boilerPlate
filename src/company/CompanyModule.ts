@@ -16,7 +16,7 @@ import { CompanyUseCase } from './application/CompanyUseCase';
       CompanyEntity, //
     ]),
   ],
-  exports: [Company],
+  exports: [CompanyUseCase],
   controllers: [CompanyController],
   providers: [
     CompanyUseCase, //

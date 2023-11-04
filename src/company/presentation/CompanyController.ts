@@ -9,7 +9,9 @@ import { CompanyUseCase } from '../application/CompanyUseCase';
     type: CompanyEntity,
   },
 })
-@Controller('companies')
+@Controller({
+  path: 'companies',
+})
 export class CompanyController implements CrudController<CompanyEntity> {
   constructor(public service: CompanyUseCase) {}
 }
